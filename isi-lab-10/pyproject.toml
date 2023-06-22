@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "isi-lab10"
+version = "0.1.0"
+description = ""
+authors = ["dmarts05 <dmarts05@estudiantes.unileon.es>"]
+readme = "README.md"
+packages = [{include = "isi_lab10"}]
+
+[tool.poetry.dependencies]
+matplotlib="3.5.3"
+numpy="1.21.5"
+pandas="1.4.4"
+python="3.9.16"
+scikit-learn="1.0.2"
+scipy="1.9.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

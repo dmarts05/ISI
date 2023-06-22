@@ -1,0 +1,23 @@
+{
+    "general": {
+        "random_seed": 323,
+        "proportion_test": 0.5,
+        "standardize": false
+    },
+    "knn": {
+        "n_neighbors": 8,
+        "p": 2
+    },
+    "logistic_regression": {
+        "C": 1.0,
+        "solver": "lbfgs"
+    },
+    "svm": {
+        "kernel": "rbf",
+        "C": 10.0
+    },
+    "naive_bayes": {},
+    "perceptron": {
+        "alpha": 0.01
+    }
+}
